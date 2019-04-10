@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1250</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>Java</lang>
+	<BuildNo>9835550</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID baa12b40-c3ef-4353-b464-5dcb9c0a41fe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">telelogic</_name>
+			<_modifiedTimeWeak type="a">4.10.2019::19:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::19:31:11</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">4.10.2019::19:31:11</weakCGTime>
+			<strongCGTime type="a">3.11.2011::6:49:13</strongCGTime>
+			<_defaultComposite type="s">GUID 32d47341-0d44-4cf2-badf-3e50e49d34c3</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 717cedd8-0546-4471-85aa-e31f8d9d062b</value>
+				<value>GUID 32d47341-0d44-4cf2-badf-3e50e49d34c3</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">drinksmachine</fileName>
+			<_id type="a">GUID 717cedd8-0546-4471-85aa-e31f8d9d062b</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 32d47341-0d44-4cf2-badf-3e50e49d34c3</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">3.15.2011::11:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">3.15.2011::11:57:32</weakCGTime>
+			<strongCGTime type="a">3.11.2011::6:49:13</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

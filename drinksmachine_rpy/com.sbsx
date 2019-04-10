@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1250</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>Java</lang>
+	<BuildNo>9835550</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 7197be1b-72f0-4f98-962b-d3a8021186e1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">com</_name>
+			<_modifiedTimeWeak type="a">3.15.2011::11:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">3.15.2011::11:57:32</weakCGTime>
+			<strongCGTime type="a">3.11.2011::6:49:0</strongCGTime>
+			<_defaultComposite type="s">GUID c624a3c8-85e2-4728-ac18-2fb15dc6d521</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID baa12b40-c3ef-4353-b464-5dcb9c0a41fe</value>
+				<value>GUID c624a3c8-85e2-4728-ac18-2fb15dc6d521</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">telelogic</fileName>
+			<_id type="a">GUID baa12b40-c3ef-4353-b464-5dcb9c0a41fe</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID c624a3c8-85e2-4728-ac18-2fb15dc6d521</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">3.15.2011::11:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">3.15.2011::11:57:32</weakCGTime>
+			<strongCGTime type="a">3.11.2011::6:49:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

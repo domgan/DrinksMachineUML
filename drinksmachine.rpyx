@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1250</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>Java</lang>
+	<BuildNo>9835550</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<IProject type="e">
+			<_id type="a">GUID c9a8ac1b-8a4c-4ff2-9424-4671860451d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">drinksmachine</_name>
+			<_modifiedTimeWeak type="a">4.10.2019::19:47:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::19:47:8</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_UserColors type="w">
+				<IRPYRawContainer type="e">
+					<size type="a">16</size>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+				</IRPYRawContainer>
+			</_UserColors>
+			<_defaultSubsystem type="r">
+				<ISubsystemHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hname type="a">Default</_hname>
+					<_hid type="a">GUID 534622a7-7a6c-4bd2-980f-a9f2bf04486f</_hid>
+				</ISubsystemHandle>
+			</_defaultSubsystem>
+			<_component type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponent</_hm2Class>
+					<_hname type="a">EXE</_hname>
+					<_hid type="a">GUID 5bc15719-11d3-496d-8c46-bba72dd357ec</_hid>
+				</IHandle>
+			</_component>
+			<Multiplicities type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">4</size>
+					<IMultiplicityItem type="e">
+						<_name type="a">1</_name>
+						<_count type="a">1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">*</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">0,1</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">1..*</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+				</IRPYRawContainer>
+			</Multiplicities>
+			<_isImportedFromDM type="a">0</_isImportedFromDM>
+			<MSCS type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</MSCS>
+			<mapOslcAddedCollections type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</mapOslcAddedCollections>
+			<mapAssociationsToRemove type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</mapAssociationsToRemove>
+			<AggregatesList type="e">
+				<value>GUID 534622a7-7a6c-4bd2-980f-a9f2bf04486f</value>
+				<value>GUID 7197be1b-72f0-4f98-962b-d3a8021186e1</value>
+				<value>GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff</value>
+				<value>GUID 74a6daed-8619-4275-8f6b-7d1d1d0220b1</value>
+				<value>GUID 1a373eb2-7fe0-464e-80c5-32bbc6b2649c</value>
+				<value>GUID 2f79df25-5e16-4a5a-876b-4528cded0c3d</value>
+				<value>GUID 8d3592d4-30e4-4723-9947-9c46c2a3bc85</value>
+				<value>GUID 3b75956f-f2d2-4ee0-b54e-32b7891132aa</value>
+				<value>GUID 85d8d23f-3a78-4dcb-9f69-714811bc24f7</value>
+				<value>GUID 6ee2501a-75f0-4c77-935c-dba37e4434db</value>
+				<value>GUID a836ede6-e141-4802-ad08-933e47cda0d2</value>
+				<value>GUID 35dae295-8db2-410c-9f13-281d44c64a37</value>
+				<value>GUID b1e6a9e2-21b7-44bb-af94-53f4dae37262</value>
+				<value>GUID 0a931094-5e7d-4d59-83e8-247a645b1176</value>
+				<value>GUID c6166baf-8330-4092-a9f1-cade111bd34e</value>
+				<value>GUID 5bc15719-11d3-496d-8c46-bba72dd357ec</value>
+			</AggregatesList>
+		</IProject>
+		<ISubsystem type="e">
+			<fileName type="a">Default</fileName>
+			<_id type="a">GUID 534622a7-7a6c-4bd2-980f-a9f2bf04486f</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">com</fileName>
+			<_id type="a">GUID 7197be1b-72f0-4f98-962b-d3a8021186e1</_id>
+		</ISubsystem>
+		<IProfile type="e">
+			<fileName type="a">JavaDocProfile</fileName>
+			<_persistAs type="a">..\..\..\..\Program Files\IBM\Rational\Rhapsody\7.5.2\Share\Profiles\JavaDoc</_persistAs>
+			<_id type="a">GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">Pre76GESkin</fileName>
+			<_id type="a">GUID 74a6daed-8619-4275-8f6b-7d1d1d0220b1</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre753Java</fileName>
+			<_id type="a">GUID 1a373eb2-7fe0-464e-80c5-32bbc6b2649c</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre761Java</fileName>
+			<_id type="a">GUID 2f79df25-5e16-4a5a-876b-4528cded0c3d</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre80Java</fileName>
+			<_id type="a">GUID 8d3592d4-30e4-4723-9947-9c46c2a3bc85</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre803Java</fileName>
+			<_id type="a">GUID 3b75956f-f2d2-4ee0-b54e-32b7891132aa</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre805Java</fileName>
+			<_id type="a">GUID 85d8d23f-3a78-4dcb-9f69-714811bc24f7</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre806Java</fileName>
+			<_id type="a">GUID 6ee2501a-75f0-4c77-935c-dba37e4434db</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre81Java</fileName>
+			<_id type="a">GUID a836ede6-e141-4802-ad08-933e47cda0d2</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre814Java</fileName>
+			<_id type="a">GUID 35dae295-8db2-410c-9f13-281d44c64a37</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">CGCompatibilityPre82Java</fileName>
+			<_id type="a">GUID b1e6a9e2-21b7-44bb-af94-53f4dae37262</_id>
+		</IProfile>
+		<IProfile type="e">
+			<fileName type="a">GECompatibilityPre831</fileName>
+			<_id type="a">GUID 0a931094-5e7d-4d59-83e8-247a645b1176</_id>
+		</IProfile>
+		<IDiagram type="e">
+			<_id type="a">GUID c6166baf-8330-4092-a9f1-cade111bd34e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Model1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_lastModifiedTime type="a">3.11.2011::6:48:18</_lastModifiedTime>
+			<m_hReferencedDiagram type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_hReferencedDiagram>
+			<_defaultSubsystem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hname type="a">Default</_hname>
+					<_hid type="a">GUID 534622a7-7a6c-4bd2-980f-a9f2bf04486f</_hid>
+				</IHandle>
+			</_defaultSubsystem>
+			<AggregatesList type="e">
+				<value>GUID 286306ca-1bf3-4d98-8028-6a2cb4b02680</value>
+			</AggregatesList>
+		</IDiagram>
+		<CGIClassChart type="e">
+			<_id type="a">GUID 286306ca-1bf3-4d98-8028-6a2cb4b02680</_id>
+			<m_type type="a">0</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Model1</_hname>
+					<_hid type="a">GUID c6166baf-8330-4092-a9f1-cade111bd34e</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<elementList type="a">1</elementList>
+			
+			<m_access type="a">'Z'</m_access>
+			<m_modified type="a">'N'</m_modified>
+			<m_nModifyDate type="a">0</m_nModifyDate>
+			<m_nCreateDate type="a">0</m_nCreateDate>
+			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
+			<m_arrowStyle type="a">'S'</m_arrowStyle>
+			<m_pRoot type="s">GUID e7363980-4005-46f3-9966-ac86da3bfb2d</m_pRoot>
+			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
+			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
+			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
+			<AggregatesList type="e">
+				<value>GUID e7363980-4005-46f3-9966-ac86da3bfb2d</value>
+			</AggregatesList>
+		</CGIClassChart>
+		<CGIClass type="e">
+			<_id type="a">GUID e7363980-4005-46f3-9966-ac86da3bfb2d</_id>
+			<m_type type="a">78</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hsubsystem type="a">Default</_hsubsystem>
+					<_hname type="a">TopLevel</_hname>
+					<_hid type="a">GUID da36025d-3e15-45db-b99f-0b96a6002b7b</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TopLevel</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">0 </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Operations>
+			<AggregatesList type="e">
+				<value>GUID 2fec5ece-34fa-4d25-a9ea-dc4ad27d8f8d</value>
+				<value>GUID 9dff91a4-77ba-4ac1-952f-139ea27fbb3a</value>
+			</AggregatesList>
+		</CGIClass>
+		<CGICompartment type="e">
+			<_id type="a">GUID 2fec5ece-34fa-4d25-a9ea-dc4ad27d8f8d</_id>
+			<m_name type="a">Attribute</m_name>
+			<m_displayOption type="a">Explicit</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<Items type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Items>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 9dff91a4-77ba-4ac1-952f-139ea27fbb3a</_id>
+			<m_name type="a">Operation</m_name>
+			<m_displayOption type="a">Explicit</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<Items type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Items>
+		</CGICompartment>
+		<IComponent type="e">
+			<fileName type="a">EXE</fileName>
+			<_id type="a">GUID 5bc15719-11d3-496d-8c46-bba72dd357ec</_id>
+		</IComponent>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

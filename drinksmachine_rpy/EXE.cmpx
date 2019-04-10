@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1250</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>Java</lang>
+	<BuildNo>9835550</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<IComponent type="e">
+			<_id type="a">GUID 5bc15719-11d3-496d-8c46-bba72dd357ec</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">EXE</_name>
+			<_modifiedTimeWeak type="a">3.15.2011::11:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<m_buildType type="a">Executable</m_buildType>
+			<m_configActive type="r">
+				<ICodeGenConfigInfoHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID fe11da18-7e6a-4d2d-b39e-0433bbd4c55b</_hid>
+				</ICodeGenConfigInfoHandle>
+			</m_configActive>
+			<HandlesInMe type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">15</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Default.sbsx</_hfilename>
+							<_hname type="a">Default</_hname>
+							<_hid type="a">GUID 534622a7-7a6c-4bd2-980f-a9f2bf04486f</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\com.sbsx</_hfilename>
+							<_hname type="a">com</_hname>
+							<_hid type="a">GUID 7197be1b-72f0-4f98-962b-d3a8021186e1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\telelogic.sbsx</_hfilename>
+							<_hsubsystem type="a">com</_hsubsystem>
+							<_hname type="a">telelogic</_hname>
+							<_hid type="a">GUID baa12b40-c3ef-4353-b464-5dcb9c0a41fe</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\drinksmachine.sbsx</_hfilename>
+							<_hsubsystem type="a">com::telelogic</_hsubsystem>
+							<_hname type="a">drinksmachine</_hname>
+							<_hid type="a">GUID 717cedd8-0546-4471-85aa-e31f8d9d062b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\..\..\..\..\Program Files\IBM\Rational\Rhapsody\7.5.2\Share\Profiles\JavaDoc\JavaDocProfile.sbsx</_hfilename>
+							<_hname type="a">JavaDocProfile</_hname>
+							<_hid type="a">GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\Pre76GESkin.sbsx</_hfilename>
+							<_hname type="a">Pre76GESkin</_hname>
+							<_hid type="a">GUID 74a6daed-8619-4275-8f6b-7d1d1d0220b1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre753Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre753Java</_hname>
+							<_hid type="a">GUID 1a373eb2-7fe0-464e-80c5-32bbc6b2649c</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre761Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre761Java</_hname>
+							<_hid type="a">GUID 2f79df25-5e16-4a5a-876b-4528cded0c3d</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre80Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre80Java</_hname>
+							<_hid type="a">GUID 8d3592d4-30e4-4723-9947-9c46c2a3bc85</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre803Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre803Java</_hname>
+							<_hid type="a">GUID 3b75956f-f2d2-4ee0-b54e-32b7891132aa</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre805Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre805Java</_hname>
+							<_hid type="a">GUID 85d8d23f-3a78-4dcb-9f69-714811bc24f7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre806Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre806Java</_hname>
+							<_hid type="a">GUID 6ee2501a-75f0-4c77-935c-dba37e4434db</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre814Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre814Java</_hname>
+							<_hid type="a">GUID 35dae295-8db2-410c-9f13-281d44c64a37</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\CGCompatibilityPre82Java.sbsx</_hfilename>
+							<_hname type="a">CGCompatibilityPre82Java</_hname>
+							<_hid type="a">GUID b1e6a9e2-21b7-44bb-af94-53f4dae37262</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProfile</_hm2Class>
+							<_hfilename type="a">.\GECompatibilityPre831.sbsx</_hfilename>
+							<_hname type="a">GECompatibilityPre831</_hname>
+							<_hid type="a">GUID 0a931094-5e7d-4d59-83e8-247a645b1176</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</HandlesInMe>
+			<VariationPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</VariationPoints>
+			<SelectedVariants type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</SelectedVariants>
+			<weakCGTime type="a">3.15.2011::11:57:32</weakCGTime>
+			<strongCGTime type="a">3.15.2011::11:6:6</strongCGTime>
+			<AggregatesList type="e">
+				<value>GUID 1d3bef53-c7e3-4f29-b8c3-1a5b6abea34a</value>
+				<value>GUID fe11da18-7e6a-4d2d-b39e-0433bbd4c55b</value>
+			</AggregatesList>
+		</IComponent>
+		<IFolder type="e">
+			<_id type="a">GUID 1d3bef53-c7e3-4f29-b8c3-1a5b6abea34a</_id>
+			<_myState type="a">73728</_myState>
+			<_name type="a">Files</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID fe11da18-7e6a-4d2d-b39e-0433bbd4c55b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Host</_name>
+			<_modifiedTimeWeak type="a">3.15.2011::11:10:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_scopeType type="a">Explicit</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\drinksmachine.sbsx</_hfilename>
+							<_hsubsystem type="a">com::telelogic::drinksmachine</_hsubsystem>
+							<_hname type="a">DrinksMachineBuilder</_hname>
+							<_hid type="a">GUID 25bc14f6-42e5-439e-87af-12fc7fc3588d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">3.15.2011::11:10:54</weakCGTime>
+			<strongCGTime type="a">3.15.2011::11:10:33</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID f1307906-8e70-49d9-88d8-b3070a54ec02</value>
+				<value>GUID a790319f-499f-4c9b-860b-42a82219ddc5</value>
+				<value>GUID b5d22c2c-1d70-4e94-b2d9-44a824a5852c</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID f1307906-8e70-49d9-88d8-b3070a54ec02</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">C:/Documents and Settings/user/Desktop/Zmywarka/EXE/DefaultConfig/EXE.bat</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID a790319f-499f-4c9b-860b-42a82219ddc5</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">C:/Documents and Settings/user/Desktop/Zmywarka/EXE/DefaultConfig/MainEXE</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IFolder type="e">
+			<_id type="a">GUID b5d22c2c-1d70-4e94-b2d9-44a824a5852c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Host</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
