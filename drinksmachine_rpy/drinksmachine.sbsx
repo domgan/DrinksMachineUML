@@ -11,10 +11,10 @@
 			<_id type="a">GUID 717cedd8-0546-4471-85aa-e31f8d9d062b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">drinksmachine</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:38:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:38:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:36:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:39:5</_modifiedTime>
 			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">4.10.2019::19:38:54</weakCGTime>
+			<weakCGTime type="a">4.10.2019::20:36:30</weakCGTime>
 			<strongCGTime type="a">4.10.2019::19:31:11</strongCGTime>
 			<_defaultComposite type="s">GUID f39a5172-e172-4e69-a03e-341f27bce2f7</_defaultComposite>
 			<_eventsBaseID type="a">6616</_eventsBaseID>
@@ -4982,16 +4982,16 @@
 			<_id type="a">GUID fcb50d1a-47fd-4ded-86b9-e5615896253f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DrinksMachine</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:35:28</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID a1b60f25-4482-47d1-928c-b5dd316994d4</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2019::19:35:28</_modifiedTime>
+			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
 			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">4.10.2019::19:35:28</weakCGTime>
+			<weakCGTime type="a">4.10.2019::20:40:11</weakCGTime>
 			<strongCGTime type="a">4.10.2019::19:31:26</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5022,8 +5022,8 @@
 			<_id type="a">GUID ead181ca-f4d6-49b3-afd1-83c1f3d58a42</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">setup</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:37:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:37:28</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:21:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:21:5</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5045,9 +5045,9 @@
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">coffeeTime = 10000;%0D
-teaTime = 15000;%0D
-cocoaTime = 8000;%0D
+				<_bodyData type="a">coffeeTime = 70;%0D
+teaTime = 100;%0D
+cocoaTime = 50;%0D
 pouringTime = 5000;%0D
 stopTime = 4000;</_bodyData>
 			</IBody>
@@ -5244,18 +5244,18 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID a5f293a5-bc3a-45d5-95ee-4c14480b7d0f</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_4</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:29:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:29:32</_modifiedTime>
-			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">4.10.2019::19:29:32</weakCGTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+			<_lastID type="a">19</_lastID>
+			<weakCGTime type="a">4.10.2019::20:40:11</weakCGTime>
 			<strongCGTime type="a">3.15.2011::10:53:48</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<_defNumber type="a">8</_defNumber>
-			<_version type="a">4.10.2019::20:9:22</_version>
+			<_defNumber type="a">9</_defNumber>
+			<_version type="a">4.10.2019::22:40:11</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 63d03270-6096-43d7-be88-788ff1c0b71a</_diagram>
 			<AggregatesList type="e">
@@ -5272,6 +5272,7 @@ stopTime = 4000;</_bodyData>
 				<value>GUID d530ce3c-271a-46d4-aa55-e1e34297a892</value>
 				<value>GUID ee159ce8-45ad-4db7-9320-d3101fdfb26c</value>
 				<value>GUID 8d173711-aea2-4841-922e-203e31f592e4</value>
+				<value>GUID 6e3da782-e9d5-4183-8aa5-39cccba9236f</value>
 				<value>GUID 243efee4-cfc6-47fb-b375-4078132cb84d</value>
 				<value>GUID 2610ec8b-5f36-42f3-b2f6-0ee11c616645</value>
 				<value>GUID 44907229-420f-48a3-b040-5ec4883a579b</value>
@@ -5283,6 +5284,7 @@ stopTime = 4000;</_bodyData>
 				<value>GUID f0631179-d47e-4635-a410-16358fb56390</value>
 				<value>GUID dc46f903-adec-4f0c-9a02-f60426190f59</value>
 				<value>GUID a3b3e340-ed68-4176-8337-a20de439ec8e</value>
+				<value>GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</value>
 				<value>GUID 63d03270-6096-43d7-be88-788ff1c0b71a</value>
 			</AggregatesList>
 		</IStateChart>
@@ -5290,7 +5292,7 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 1ac6d607-b17d-4fba-8c93-95441e06963b</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">defaulttransition_4</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTarget type="s">GUID 7870f53b-ed94-4daa-a297-a53342d4f571</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5312,8 +5314,9 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 75744c8f-1046-4579-9102-a7a567676953</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">defaulttransition_5</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_errorStatus type="a">ErrorItem</_errorStatus>
 			<_itsTarget type="s">GUID 2eef97a1-79d2-4707-b40b-1ab57e57f89a</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s"></_itsSource>
@@ -5334,7 +5337,7 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 8038aa21-4a97-470f-84ee-0774e7024012</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_6</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTarget type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5375,7 +5378,7 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID cef3ad8e-d170-421a-95da-8a466a2e6f97</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_7</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:29:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:29:29</_modifiedTime>
 			<_itsTarget type="s">GUID f0631179-d47e-4635-a410-16358fb56390</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5410,7 +5413,7 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID b62d3ac7-a4c3-4871-befe-bb17ce985b65</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_9</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:19:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:19:8</_modifiedTime>
 			<_itsTarget type="s">GUID 34078771-109e-4b92-ad13-ba37609b3f85</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5445,9 +5448,9 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID fc1a7ca8-b913-4ca2-ae27-41ad5c58db44</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_10</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:30:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:30:51</_modifiedTime>
-			<_itsTarget type="s">GUID 243efee4-cfc6-47fb-b375-4078132cb84d</_itsTarget>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:30:59</_modifiedTime>
+			<_itsTarget type="s">GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 6f74607b-a45b-4998-9706-3ae0c43b3e20</_itsSource>
 			<AggregatesList type="e">
@@ -5475,8 +5478,8 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 37c44ef5-488e-43f9-b7ae-0c7e442451ba</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_11</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:22:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:22:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:11:7</_modifiedTime>
 			<_itsTarget type="s">GUID 6f74607b-a45b-4998-9706-3ae0c43b3e20</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 34078771-109e-4b92-ad13-ba37609b3f85</_itsSource>
@@ -5486,27 +5489,18 @@ stopTime = 4000;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID ea81bf24-ecb1-4e37-8f72-777210964a1d</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::17:22:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:22:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:11:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:11:7</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
-			<AggregatesList type="e">
-				<value>GUID c2e61ccc-57a4-4132-9c08-03755606cb18</value>
-			</AggregatesList>
 		</ILabel>
-		<ITimeout type="e">
-			<_id type="a">GUID c2e61ccc-57a4-4132-9c08-03755606cb18</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::17:22:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:22:50</_modifiedTime>
-			<_body type="a">tm(coffeeTime)</_body>
-			<_time type="a">coffeeTime</_time>
-		</ITimeout>
 		<ITransition type="e">
 			<_id type="a">GUID e1e64fa4-393f-4bca-9a8a-12616aa42895</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_12</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:29:18</_modifiedTime>
 			<_itsTarget type="s">GUID 7870f53b-ed94-4daa-a297-a53342d4f571</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 2610ec8b-5f36-42f3-b2f6-0ee11c616645</_itsSource>
@@ -5516,8 +5510,8 @@ stopTime = 4000;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 381696a0-5eba-4a8c-92dc-e9c2231a6d15</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:29:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:29:18</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -5526,7 +5520,7 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 602aae9a-d37a-4940-8702-b5140ef302cc</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_13</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:22:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:22:11</_modifiedTime>
 			<_itsTarget type="s">GUID dc46f903-adec-4f0c-9a02-f60426190f59</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5561,7 +5555,7 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 432ab3df-4202-4c82-9800-550e5fe44c6a</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_14</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:22:20</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:22:20</_modifiedTime>
 			<_itsTarget type="s">GUID a3b3e340-ed68-4176-8337-a20de439ec8e</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5596,8 +5590,8 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID d530ce3c-271a-46d4-aa55-e1e34297a892</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_15</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:23:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:23:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:35:56</_modifiedTime>
 			<_itsTarget type="s">GUID 6f74607b-a45b-4998-9706-3ae0c43b3e20</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID dc46f903-adec-4f0c-9a02-f60426190f59</_itsSource>
@@ -5607,27 +5601,18 @@ stopTime = 4000;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 3029232e-be78-496a-8b4c-6dacc0f9778d</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::17:23:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:23:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:35:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:35:56</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
-			<AggregatesList type="e">
-				<value>GUID 8fc1ef77-f6c4-42aa-bdb3-758440f613bb</value>
-			</AggregatesList>
 		</ILabel>
-		<ITimeout type="e">
-			<_id type="a">GUID 8fc1ef77-f6c4-42aa-bdb3-758440f613bb</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">tm(teaTime)</_body>
-			<_time type="a">teaTime</_time>
-		</ITimeout>
 		<ITransition type="e">
 			<_id type="a">GUID ee159ce8-45ad-4db7-9320-d3101fdfb26c</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_16</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:23:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:23:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:36:1</_modifiedTime>
 			<_itsTarget type="s">GUID 6f74607b-a45b-4998-9706-3ae0c43b3e20</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID a3b3e340-ed68-4176-8337-a20de439ec8e</_itsSource>
@@ -5637,26 +5622,17 @@ stopTime = 4000;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 768ab991-0b13-4562-b4d7-f6a75d194af0</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::17:23:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:23:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:36:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:36:1</_modifiedTime>
+			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
-			<AggregatesList type="e">
-				<value>GUID 0094a78e-497a-4ae4-a664-425f960f62f0</value>
-			</AggregatesList>
 		</ILabel>
-		<ITimeout type="e">
-			<_id type="a">GUID 0094a78e-497a-4ae4-a664-425f960f62f0</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">tm(cocoaTime)</_body>
-			<_time type="a">cocoaTime</_time>
-		</ITimeout>
 		<ITransition type="e">
 			<_id type="a">GUID 8d173711-aea2-4841-922e-203e31f592e4</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_17</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:30:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:30:14</_modifiedTime>
 			<_itsTarget type="s">GUID 7870f53b-ed94-4daa-a297-a53342d4f571</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
@@ -5682,25 +5658,55 @@ stopTime = 4000;</_bodyData>
 			<_body type="a">tm(stopTime)</_body>
 			<_time type="a">stopTime</_time>
 		</ITimeout>
+		<ITransition type="e">
+			<_id type="a">GUID 6e3da782-e9d5-4183-8aa5-39cccba9236f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">transition_18</_name>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:34:17</_modifiedTime>
+			<_itsTarget type="s">GUID 243efee4-cfc6-47fb-b375-4078132cb84d</_itsTarget>
+			<_staticReaction type="a">0</_staticReaction>
+			<_itsSource type="s">GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</_itsSource>
+			<AggregatesList type="e">
+				<value>GUID 89f6df5f-fe78-427e-ad65-4fc54f5d2956</value>
+			</AggregatesList>
+		</ITransition>
+		<ILabel type="e">
+			<_id type="a">GUID 89f6df5f-fe78-427e-ad65-4fc54f5d2956</_id>
+			<_modifiedTimeWeak type="a">4.10.2019::20:34:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:34:17</_modifiedTime>
+			<_itsGuard>NULL</_itsGuard>
+			<_itsAction>NULL</_itsAction>
+			<AggregatesList type="e">
+				<value>GUID 973efa49-8d0e-4d4b-883e-7d406af7c941</value>
+			</AggregatesList>
+		</ILabel>
+		<ITimeout type="e">
+			<_id type="a">GUID 973efa49-8d0e-4d4b-883e-7d406af7c941</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">tm(pouringTime)</_body>
+			<_time type="a">pouringTime</_time>
+		</ITimeout>
 		<IConnector type="e">
 			<_id type="a">GUID 243efee4-cfc6-47fb-b375-4078132cb84d</_id>
 			<_name type="a">Done</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:31:10</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_connectorType type="a">Diagram</_connectorType>
 		</IConnector>
 		<IConnector type="e">
 			<_id type="a">GUID 2610ec8b-5f36-42f3-b2f6-0ee11c616645</_id>
 			<_name type="a">Done</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_parent type="s">GUID 44907229-420f-48a3-b040-5ec4883a579b</_parent>
 			<_connectorType type="a">Diagram</_connectorType>
 		</IConnector>
 		<IState type="e">
 			<_id type="a">GUID 44907229-420f-48a3-b040-5ec4883a579b</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::17:16:23</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:16:23</_modifiedTime>
 			<_parent type="s"></_parent>
 			<_defaultTrans type="s">GUID 1ac6d607-b17d-4fba-8c93-95441e06963b</_defaultTrans>
@@ -5708,15 +5714,15 @@ stopTime = 4000;</_bodyData>
 		<IState type="e">
 			<_id type="a">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_id>
 			<_name type="a">Running</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:27:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:27:53</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:30:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:30:44</_modifiedTime>
 			<_parent type="s">GUID 44907229-420f-48a3-b040-5ec4883a579b</_parent>
 			<_defaultTrans type="s">GUID 75744c8f-1046-4579-9102-a7a567676953</_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 2eef97a1-79d2-4707-b40b-1ab57e57f89a</_id>
 			<_name type="a">Choosing</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::18:9:22</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::18:9:22</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
@@ -5733,24 +5739,37 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 		<IState type="e">
 			<_id type="a">GUID 34078771-109e-4b92-ad13-ba37609b3f85</_id>
 			<_name type="a">makingCoffee</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:26:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:26:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:19:8</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID 486da3c8-94d3-4ef3-9a4c-b675934d78b3</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">4.10.2019::17:19:45</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.10.2019::17:19:45</_modifiedTime>
-				<_body type="a">System.out.println(&quot;Wybrales kawe! Zaczekaj chwile.&quot;);</_body>
+				<_modifiedTimeWeak type="a">4.10.2019::20:19:8</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.10.2019::20:19:8</_modifiedTime>
+				<_body type="a">System.out.println(&quot;Wybrales kawe!&quot;);    %0D
+char[] animationChars = new char[]{'|', '/', '-', '\\'};%0D
+%0D
+        for (int i = 0; i &lt;= 100; i++) {%0D
+            System.out.print(&quot;Zaczekaj chwile: &quot; + i + &quot;%25 &quot; + animationChars[i %25 4] + &quot;\r&quot;);%0D
+%0D
+            try {%0D
+                Thread.sleep(coffeeTime);%0D
+            } catch (InterruptedException e) {%0D
+                e.printStackTrace();%0D
+            }%0D
+        }%0D
+%0D
+        System.out.println(&quot;Zaczekaj chwile: Gotowe!          &quot;);</_body>
 			</IAction>
 			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 6f74607b-a45b-4998-9706-3ae0c43b3e20</_id>
 			<_name type="a">Pouring</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:25:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:25:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:33:59</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
@@ -5761,18 +5780,11 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 				<_body type="a">System.out.println(&quot;Twoj napoj jest gotowy! Upewnij sie, ze kubek jest na swoim miejscu.&quot;);</_body>
 			</IAction>
 			</_entryAction>
-			<_exitAction type="p"><IAction type="e">
-				<_id type="a">GUID 65375832-b0df-4472-b0fd-eb704d21db70</_id>
-				<_modifiedTimeWeak type="a">4.10.2019::17:25:41</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.10.2019::17:25:41</_modifiedTime>
-				<_body type="a">System.out.println(&quot;Smacznego!&quot;);</_body>
-			</IAction>
-			</_exitAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 7870f53b-ed94-4daa-a297-a53342d4f571</_id>
 			<_name type="a">Off</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:28:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:28:10</_modifiedTime>
 			<_parent type="s">GUID 44907229-420f-48a3-b040-5ec4883a579b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
@@ -5780,7 +5792,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 		<IState type="e">
 			<_id type="a">GUID f0631179-d47e-4635-a410-16358fb56390</_id>
 			<_name type="a">Stop</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::17:30:28</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2019::17:30:28</_modifiedTime>
 			<_parent type="s">GUID 44907229-420f-48a3-b040-5ec4883a579b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
@@ -5796,34 +5808,84 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 		<IState type="e">
 			<_id type="a">GUID dc46f903-adec-4f0c-9a02-f60426190f59</_id>
 			<_name type="a">makingTea</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::18:3:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::18:3:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:20:12</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID b89de114-b1af-48f4-aaa3-aa1ce6416b8c</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">4.10.2019::18:3:12</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.10.2019::18:3:12</_modifiedTime>
-				<_body type="a">System.out.println(&quot;Wybrales herbate! Zaczekaj chwile.&quot;);</_body>
+				<_modifiedTimeWeak type="a">4.10.2019::20:20:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.10.2019::20:20:12</_modifiedTime>
+				<_body type="a">System.out.println(&quot;Wybrales herbate! Zaczekaj chwile.&quot;);   %0D
+char[] animationChars = new char[]{'|', '/', '-', '\\'};%0D
+%0D
+        for (int i = 0; i &lt;= 100; i++) {%0D
+            System.out.print(&quot;Zaczekaj chwile: &quot; + i + &quot;%25 &quot; + animationChars[i %25 4] + &quot;\r&quot;);%0D
+%0D
+            try {%0D
+                Thread.sleep(teaTime);%0D
+            } catch (InterruptedException e) {%0D
+                e.printStackTrace();%0D
+            }%0D
+        }%0D
+%0D
+        System.out.println(&quot;Zaczekaj chwile: Gotowe!          &quot;);</_body>
 			</IAction>
 			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID a3b3e340-ed68-4176-8337-a20de439ec8e</_id>
 			<_name type="a">makingCocoa</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::18:3:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::18:3:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:21:29</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID bc7284ae-5068-4c1a-8901-52ebda17496e</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">4.10.2019::18:3:19</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.10.2019::18:3:19</_modifiedTime>
-				<_body type="a">System.out.println(&quot;Wybrales kakao! Zaczekaj chwile.&quot;);</_body>
+				<_modifiedTimeWeak type="a">4.10.2019::20:21:29</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.10.2019::20:21:29</_modifiedTime>
+				<_body type="a">System.out.println(&quot;Wybrales kakao! Zaczekaj chwile.&quot;);   %0D
+char[] animationChars = new char[]{'|', '/', '-', '\\'};%0D
+%0D
+        for (int i = 0; i &lt;= 100; i++) {%0D
+            System.out.print(&quot;Zaczekaj chwile: &quot; + i + &quot;%25 &quot; + animationChars[i %25 4] + &quot;\r&quot;);%0D
+%0D
+            try {%0D
+                Thread.sleep(cocoaTime);%0D
+            } catch (InterruptedException e) {%0D
+                e.printStackTrace();%0D
+            }%0D
+        }%0D
+%0D
+        System.out.println(&quot;Zaczekaj chwile: Gotowe!          &quot;);</_body>
 			</IAction>
 			</_entryAction>
+		</IState>
+		<IState type="e">
+			<_id type="a">GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</_id>
+			<_name type="a">End</_name>
+			<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
+			<_defaultTrans type="s"></_defaultTrans>
+			<_entryAction type="p"><IAction type="e">
+				<_id type="a">GUID e17d493d-4393-48f7-a725-d7eaa9ff30eb</_id>
+				<_myState type="a">4096</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_body type="a">System.out.println(&quot;Smacznego!&quot;);</_body>
+			</IAction>
+			</_entryAction>
+			<_exitAction type="p"><IAction type="e">
+				<_id type="a">GUID fa68d569-a027-47fa-a4b2-b4c8556821cb</_id>
+				<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+				<_body type="a">System.out.println(new String(new char[50]).replace(&quot;\0&quot;, &quot;\r\n&quot;));%0D
+System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
+			</IAction>
+			</_exitAction>
 		</IState>
 		<IStateChartDiagram type="e">
 			<_id type="a">GUID 63d03270-6096-43d7-be88-788ff1c0b71a</_id>
@@ -5836,7 +5898,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">4</size>
+									<size type="a">6</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">DanglingTransition</_Name>
 										<Properties type="c">
@@ -5910,6 +5972,69 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 									</IPropertyMetaclass>
 									
 									<IPropertyMetaclass type="e">
+										<_Name type="a">FreeText</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">9</size>
+												<IProperty type="e">
+													<_Name type="a">Fill.Transparent_Fill</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Arial</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Height</_Name>
+													<_Value type="a">13</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">10</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">HorzAlign</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.Transparent</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Multiline</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">VertAlign</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Wordbreak</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
 										<_Name type="a">HistoryConnector</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
@@ -5947,6 +6072,57 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 												<IProperty type="e">
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Note</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">7</size>
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,84,96</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,207</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Arial</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">10</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">225,225,0</_Value>
 													<_Type type="a">Color</_Type>
 												</IProperty>
 												
@@ -6026,9 +6202,9 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:29:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:29:32</_modifiedTime>
-			<_lastModifiedTime type="a">4.10.2019::19:29:32</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:39:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+			<_lastModifiedTime type="a">4.10.2019::20:40:11</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -6065,7 +6241,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<elementList type="a">24</elementList>
+			<elementList type="a">27</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -6106,6 +6282,9 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 				<value>GUID b80fb532-1c01-42b5-b737-a2af9f4f6a77</value>
 				<value>GUID 4d20862b-9092-465d-89eb-e5766179d456</value>
 				<value>GUID d41661f1-afdc-43f0-bc4a-14037c284536</value>
+				<value>GUID ea6448ee-03a1-418a-8a14-fb41c72f83c3</value>
+				<value>GUID 2d03cfbc-661c-49b1-bcdd-673ee9981c8a</value>
+				<value>GUID af4e7d31-f95b-486a-a4f0-804bbeb502aa</value>
 			</AggregatesList>
 		</CGIStateChart>
 		<CGIState type="e">
@@ -6163,6 +6342,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
 		</CGIState>
 		<CGIState type="e">
 			<_id type="a">GUID c6e32d33-b69d-454a-ba82-1ee61410345b</_id>
@@ -6252,6 +6432,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
 			<AggregatesList type="e">
 				<value>GUID bdae5f66-9cd0-49aa-91cd-af4859424b70</value>
 			</AggregatesList>
@@ -6404,7 +6585,31 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
+						<size type="a">3</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Underline</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
@@ -6649,6 +6854,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
 			<AggregatesList type="e">
 				<value>GUID 74aa5932-491a-4e18-83e3-eaaed8013ae6</value>
 				<value>GUID 609c4c24-ad0b-4e08-9815-489d777ac0c1</value>
@@ -6667,8 +6873,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Arial 10 400 0 0 0 0</_fontPropValues>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
 			<_fontPropValues type="a">Arial 10 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIState type="e">
@@ -6903,7 +7108,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">2.0334 0 0 2.05426 821.492 977.83 </m_transform>
+			<m_transform type="a">2.0334 0 0 2.05426 932.906 977.83 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_position type="a">4 0 0  0 24  55 24  55 0  </m_position>
 			<m_pInheritsFrom type="r">
@@ -7454,7 +7659,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID e14bf4e9-20a6-4c44-8b04-086b6deabfd2</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID b98e6c1c-afcf-48b0-a98a-40534ada7fad</m_pTarget>
+			<m_pTarget type="s">GUID ea6448ee-03a1-418a-8a14-fb41c72f83c3</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -7478,7 +7683,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
 			<m_SourcePort type="a">529 1066 </m_SourcePort>
-			<m_TargetPort type="a">23 0 </m_TargetPort>
+			<m_TargetPort type="a">0 618 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -7553,7 +7758,6 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">tm(coffeeTime)</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -8155,7 +8359,6 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">tm(teaTime)</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -8217,7 +8420,6 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">tm(cocoaTime)</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -8306,6 +8508,238 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_bShowName type="a">1</m_bShowName>
 		</CGITrans>
+		<CGIState type="e">
+			<_id type="a">GUID ea6448ee-03a1-418a-8a14-fb41c72f83c3</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">2</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">StatechartDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">ShowReactions</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">8</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IState</_hm2Class>
+					<_hid type="a">GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID c6e32d33-b69d-454a-ba82-1ee61410345b</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">End</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.224587 0 0 0.116279 702.166 780.621 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=100%25&gt;
+&lt;frame name=ReactionsListCompartment&gt;</frameset>
+			<nAndLineCount type="a">0</nAndLineCount>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<m_moveAndLineTimeStamp type="a">1.2.1990::0:0:0</m_moveAndLineTimeStamp>
+			<AggregatesList type="e">
+				<value>GUID d2deab2b-639e-496e-9643-8f94b8fca453</value>
+				<value>GUID 4e1529cf-33b9-42e0-be3f-e0df1051db84</value>
+			</AggregatesList>
+		</CGIState>
+		<CGICompartment type="e">
+			<_id type="a">GUID d2deab2b-639e-496e-9643-8f94b8fca453</_id>
+			<m_name type="a">HyperLinkShortCut</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 4e1529cf-33b9-42e0-be3f-e0df1051db84</_id>
+			<m_name type="a">Reactions</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Arial 10 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Arial 10 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGITrans type="e">
+			<_id type="a">GUID 2d03cfbc-661c-49b1-bcdd-673ee9981c8a</_id>
+			<m_type type="a">28</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITransition</_hm2Class>
+					<_hid type="a">GUID 6e3da782-e9d5-4183-8aa5-39cccba9236f</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID ea6448ee-03a1-418a-8a14-fb41c72f83c3</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID b98e6c1c-afcf-48b0-a98a-40534ada7fad</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">tm(pouringTime)</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">4 -6 -9  114 -9  114 9  -6 9  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 1193 544 </m_transform>
+					<m_nHorizontalSpacing type="a">-16</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-3</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">1</m_line_style>
+			<m_SourcePort type="a">1096 530 </m_SourcePort>
+			<m_TargetPort type="a">25 0 </m_TargetPort>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_bShowName type="a">1</m_bShowName>
+		</CGITrans>
+		<CGIFreeText type="e">
+			<_id type="a">GUID af4e7d31-f95b-486a-a4f0-804bbeb502aa</_id>
+			<m_type type="a">189</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 85a7d37c-fabe-4156-8248-89bcb7b86518</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">1 0 0 1 -161 -21 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_points type="a">4 611 410  652 410  652 428  611 428  </m_points>
+			<m_text type="a">Czas przygotowywania napojow uwzgledniony w progressbarze.</m_text>
+		</CGIFreeText>
 		<IPart type="e">
 			<_id type="a">GUID 875a7615-ab1c-48ca-8328-a9025afc4821</_id>
 			<_myState type="a">8192</_myState>
@@ -8382,16 +8816,16 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<_id type="a">GUID 572d7b40-fd3f-479d-8293-80d1e71d7192</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Display</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:32:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.10.2019::20:9:53</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID a1b60f25-4482-47d1-928c-b5dd316994d4</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2019::19:32:52</_modifiedTime>
+			<_modifiedTime type="a">4.10.2019::20:9:53</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">4.10.2019::19:32:52</weakCGTime>
+			<weakCGTime type="a">4.10.2019::20:9:53</weakCGTime>
 			<strongCGTime type="a">3.15.2011::10:51:2</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -8491,10 +8925,10 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<_id type="a">GUID 0ca92e34-9b83-4734-8271-e0013b1ac289</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:32:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:32:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:9:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:9:53</_modifiedTime>
 			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">4.10.2019::19:32:52</weakCGTime>
+			<weakCGTime type="a">4.10.2019::20:9:53</weakCGTime>
 			<strongCGTime type="a">3.15.2011::10:51:2</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -8502,7 +8936,7 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">1</_defNumber>
-			<_version type="a">4.10.2019::21:32:52</_version>
+			<_version type="a">4.10.2019::22:9:53</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 57136324-2828-4ce2-b957-545878ab6dd2</_diagram>
 			<AggregatesList type="e">
@@ -8651,8 +9085,8 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			<_id type="a">GUID 6ebc4975-0f65-4f87-9b69-5bb8cece43e3</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_9</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:32:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:32:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:9:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:9:53</_modifiedTime>
 			<_itsTarget type="s">GUID aa5796ee-c620-4ba9-8b7b-c6ceed1c2dba</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 20274843-f314-4a48-8059-50f7104f41f8</_itsSource>
@@ -8662,8 +9096,8 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID dd5d1fef-e121-40f2-87c4-416a4f37a2e5</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::19:32:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:32:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:9:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:9:53</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<AggregatesList type="e">
 				<value>GUID 097a1242-793a-41a8-a1ef-00e30c8f86b6</value>
@@ -8678,8 +9112,8 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 		</IGuard>
 		<IAction type="e">
 			<_id type="a">GUID 1d10dc6a-206e-46e1-9efa-cab1e01b6d73</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::19:32:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:32:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:9:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:9:53</_modifiedTime>
 			<_body type="a">itsDrinksMachine.gen(new evCoffee());</_body>
 		</IAction>
 		<ITransition type="e">
@@ -8960,9 +9394,9 @@ System.out.println(&quot;1 - Kawa, 2 - Herbata, 3 - Kakao, a - aby anulowac zamo
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:32:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:32:52</_modifiedTime>
-			<_lastModifiedTime type="a">4.10.2019::19:32:52</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">4.10.2019::20:7:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2019::20:9:53</_modifiedTime>
+			<_lastModifiedTime type="a">4.10.2019::20:9:53</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

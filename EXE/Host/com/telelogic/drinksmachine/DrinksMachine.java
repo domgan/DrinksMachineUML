@@ -62,8 +62,9 @@ public class DrinksMachine implements RiJStateConcept, Animated {
     public static final int makingTea=4;
     public static final int makingCoffee=5;
     public static final int makingCocoa=6;
-    public static final int Choosing=7;
-    public static final int Off=8;
+    public static final int End=7;
+    public static final int Choosing=8;
+    public static final int Off=9;
     //#]
     protected int rootState_subState;		//## ignore 
     
@@ -75,11 +76,7 @@ public class DrinksMachine implements RiJStateConcept, Animated {
     
     public static final int DrinksMachine_Timeout_Pouring_id = 2;		//## ignore 
     
-    public static final int DrinksMachine_Timeout_makingTea_id = 3;		//## ignore 
-    
-    public static final int DrinksMachine_Timeout_makingCoffee_id = 4;		//## ignore 
-    
-    public static final int DrinksMachine_Timeout_makingCocoa_id = 5;		//## ignore 
+    public static final int DrinksMachine_Timeout_End_id = 3;		//## ignore 
     
     
     //## statechart_method 
@@ -153,9 +150,9 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                });
         
         //#[ operation setup() 
-        coffeeTime = 10000;
-        teaTime = 15000;
-        cocoaTime = 8000;
+        coffeeTime = 70;
+        teaTime = 100;
+        cocoaTime = 50;
         pouringTime = 5000;
         stopTime = 4000;
         //#]
@@ -345,11 +342,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public void rootState_add(AnimStates animStates) {
             animStates.add("ROOT");
             switch (rootState_subState) {
-                case Running:
-                {
-                    Running_add(animStates);
-                }
-                break;
                 case Off:
                 {
                     Off_add(animStates);
@@ -358,6 +350,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                 case Stop:
                 {
                     Stop_add(animStates);
+                }
+                break;
+                case Running:
+                {
+                    Running_add(animStates);
                 }
                 break;
                 default:
@@ -377,31 +374,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public int rootState_dispatchEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             switch (rootState_active) {
-                case Choosing:
-                {
-                    res = Choosing_takeEvent(id);
-                }
-                break;
-                case makingCoffee:
-                {
-                    res = makingCoffee_takeEvent(id);
-                }
-                break;
-                case Pouring:
-                {
-                    res = Pouring_takeEvent(id);
-                }
-                break;
-                case makingTea:
-                {
-                    res = makingTea_takeEvent(id);
-                }
-                break;
-                case makingCocoa:
-                {
-                    res = makingCocoa_takeEvent(id);
-                }
-                break;
                 case Off:
                 {
                     res = Off_takeEvent(id);
@@ -410,6 +382,36 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                 case Stop:
                 {
                     res = Stop_takeEvent(id);
+                }
+                break;
+                case End:
+                {
+                    res = End_takeEvent(id);
+                }
+                break;
+                case makingCocoa:
+                {
+                    res = makingCocoa_takeEvent(id);
+                }
+                break;
+                case makingTea:
+                {
+                    res = makingTea_takeEvent(id);
+                }
+                break;
+                case Pouring:
+                {
+                    res = Pouring_takeEvent(id);
+                }
+                break;
+                case makingCoffee:
+                {
+                    res = makingCoffee_takeEvent(id);
+                }
+                break;
+                case Choosing:
+                {
+                    res = Choosing_takeEvent(id);
                 }
                 break;
                 default:
@@ -427,19 +429,14 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public void Running_add(AnimStates animStates) {
             animStates.add("ROOT.Running");
             switch (Running_subState) {
-                case Choosing:
+                case End:
                 {
-                    Choosing_add(animStates);
+                    End_add(animStates);
                 }
                 break;
-                case makingCoffee:
+                case makingCocoa:
                 {
-                    makingCoffee_add(animStates);
-                }
-                break;
-                case Pouring:
-                {
-                    Pouring_add(animStates);
+                    makingCocoa_add(animStates);
                 }
                 break;
                 case makingTea:
@@ -447,9 +444,19 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                     makingTea_add(animStates);
                 }
                 break;
-                case makingCocoa:
+                case Pouring:
                 {
-                    makingCocoa_add(animStates);
+                    Pouring_add(animStates);
+                }
+                break;
+                case makingCoffee:
+                {
+                    makingCoffee_add(animStates);
+                }
+                break;
+                case Choosing:
+                {
+                    Choosing_add(animStates);
                 }
                 break;
                 default:
@@ -478,6 +485,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public void End_add(AnimStates animStates) {
+            animStates.add("ROOT.Running.End");
+        }
+        
+        //## statechart_method 
         public void Choosing_add(AnimStates animStates) {
             animStates.add("ROOT.Running.Choosing");
         }
@@ -497,9 +509,21 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void makingCoffeeEnter() {
             //#[ state ROOT.Running.makingCoffee.(Entry) 
-            System.out.println("Wybrales kawe! Zaczekaj chwile.");
+            System.out.println("Wybrales kawe!");    
+            char[] animationChars = new char[]{'|', '/', '-', '\\'};
+            
+                    for (int i = 0; i <= 100; i++) {
+                        System.out.print("Zaczekaj chwile: " + i + "% " + animationChars[i % 4] + "\r");
+            
+                        try {
+                            Thread.sleep(coffeeTime);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+            
+                    System.out.println("Zaczekaj chwile: Gotowe!          ");
             //#]
-            itsRiJThread.schedTimeout(coffeeTime, DrinksMachine_Timeout_makingCoffee_id, this, "ROOT.Running.makingCoffee");
         }
         
         //## statechart_method 
@@ -539,7 +563,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         
         //## statechart_method 
         public void makingCoffeeExit() {
-            itsRiJThread.unschedTimeout(DrinksMachine_Timeout_makingCoffee_id, this);
         }
         
         //## statechart_method 
@@ -551,9 +574,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void PouringExit() {
             itsRiJThread.unschedTimeout(DrinksMachine_Timeout_Pouring_id, this);
-            //#[ state ROOT.Running.Pouring.(Exit) 
-            System.out.println("Smacznego!");
-            //#]
         }
         
         //## statechart_method 
@@ -591,13 +611,26 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void makingCocoaEnter() {
             //#[ state ROOT.Running.makingCocoa.(Entry) 
-            System.out.println("Wybrales kakao! Zaczekaj chwile.");
+            System.out.println("Wybrales kakao! Zaczekaj chwile.");   
+            char[] animationChars = new char[]{'|', '/', '-', '\\'};
+            
+                    for (int i = 0; i <= 100; i++) {
+                        System.out.print("Zaczekaj chwile: " + i + "% " + animationChars[i % 4] + "\r");
+            
+                        try {
+                            Thread.sleep(cocoaTime);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+            
+                    System.out.println("Zaczekaj chwile: Gotowe!          ");
             //#]
-            itsRiJThread.schedTimeout(cocoaTime, DrinksMachine_Timeout_makingCocoa_id, this, "ROOT.Running.makingCocoa");
         }
         
         //## statechart_method 
         public void makingCoffee_exit() {
+            popNullConfig();
             makingCoffeeExit();
             animInstance().notifyStateExited("ROOT.Running.makingCoffee");
         }
@@ -605,9 +638,9 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public int makingTea_takeEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            if(event.isTypeOf(RiJEvent.TIMEOUT_EVENT_ID))
+            if(event.isTypeOf(RiJEvent.NULL_EVENT_ID))
                 {
-                    res = makingTeaTakeRiJTimeout();
+                    res = makingTeaTakeNull();
                 }
             
             if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
@@ -670,8 +703,21 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public int EndTakeRiJTimeout() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            if(event.getTimeoutId() == DrinksMachine_Timeout_End_id)
+                {
+                    animInstance().notifyTransitionStarted("13");
+                    Running_exit();
+                    Off_entDef();
+                    animInstance().notifyTransitionEnded("13");
+                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                }
+            return res;
+        }
+        
+        //## statechart_method 
         public void makingTeaExit() {
-            itsRiJThread.unschedTimeout(DrinksMachine_Timeout_makingTea_id, this);
         }
         
         //## statechart_method 
@@ -685,6 +731,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public void End_entDef() {
+            End_enter();
+        }
+        
+        //## statechart_method 
         public void Pouring_enter() {
             animInstance().notifyStateEntered("ROOT.Running.Pouring");
             Running_subState = Pouring;
@@ -694,6 +745,7 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         
         //## statechart_method 
         public void makingCocoa_exit() {
+            popNullConfig();
             makingCocoaExit();
             animInstance().notifyStateExited("ROOT.Running.makingCocoa");
         }
@@ -707,19 +759,14 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void Running_exit() {
             switch (Running_subState) {
-                case Choosing:
+                case End:
                 {
-                    Choosing_exit();
+                    End_exit();
                 }
                 break;
-                case makingCoffee:
+                case makingCocoa:
                 {
-                    makingCoffee_exit();
-                }
-                break;
-                case Pouring:
-                {
-                    Pouring_exit();
+                    makingCocoa_exit();
                 }
                 break;
                 case makingTea:
@@ -727,9 +774,19 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                     makingTea_exit();
                 }
                 break;
-                case makingCocoa:
+                case Pouring:
                 {
-                    makingCocoa_exit();
+                    Pouring_exit();
+                }
+                break;
+                case makingCoffee:
+                {
+                    makingCoffee_exit();
+                }
+                break;
+                case Choosing:
+                {
+                    Choosing_exit();
                 }
                 break;
                 default:
@@ -752,8 +809,17 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public void EndEnter() {
+            //#[ state ROOT.Running.End.(Entry) 
+            System.out.println("Smacznego!");
+            //#]
+            itsRiJThread.schedTimeout(pouringTime, DrinksMachine_Timeout_End_id, this, "ROOT.Running.End");
+        }
+        
+        //## statechart_method 
         public void makingTea_enter() {
             animInstance().notifyStateEntered("ROOT.Running.makingTea");
+            pushNullConfig();
             Running_subState = makingTea;
             rootState_active = makingTea;
             makingTeaEnter();
@@ -794,11 +860,26 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
-        public int makingCocoa_takeEvent(short id) {
+        public int End_takeEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             if(event.isTypeOf(RiJEvent.TIMEOUT_EVENT_ID))
                 {
-                    res = makingCocoaTakeRiJTimeout();
+                    res = EndTakeRiJTimeout();
+                }
+            
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = Running_takeEvent(id);
+                }
+            return res;
+        }
+        
+        //## statechart_method 
+        public int makingCocoa_takeEvent(short id) {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            if(event.isTypeOf(RiJEvent.NULL_EVENT_ID))
+                {
+                    res = makingCocoaTakeNull();
                 }
             
             if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
@@ -816,9 +897,21 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void makingTeaEnter() {
             //#[ state ROOT.Running.makingTea.(Entry) 
-            System.out.println("Wybrales herbate! Zaczekaj chwile.");
+            System.out.println("Wybrales herbate! Zaczekaj chwile.");   
+            char[] animationChars = new char[]{'|', '/', '-', '\\'};
+            
+                    for (int i = 0; i <= 100; i++) {
+                        System.out.print("Zaczekaj chwile: " + i + "% " + animationChars[i % 4] + "\r");
+            
+                        try {
+                            Thread.sleep(teaTime);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+            
+                    System.out.println("Zaczekaj chwile: Gotowe!          ");
             //#]
-            itsRiJThread.schedTimeout(teaTime, DrinksMachine_Timeout_makingTea_id, this, "ROOT.Running.makingTea");
         }
         
         //## statechart_method 
@@ -827,8 +920,8 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             if(event.getTimeoutId() == DrinksMachine_Timeout_Pouring_id)
                 {
                     animInstance().notifyTransitionStarted("5");
-                    Running_exit();
-                    Off_entDef();
+                    Pouring_exit();
+                    End_entDef();
                     animInstance().notifyTransitionEnded("5");
                     res = RiJStateReactive.TAKE_EVENT_COMPLETE;
                 }
@@ -848,22 +941,26 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
-        public int makingCocoaTakeRiJTimeout() {
+        public int makingCocoaTakeNull() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            if(event.getTimeoutId() == DrinksMachine_Timeout_makingCocoa_id)
-                {
-                    animInstance().notifyTransitionStarted("11");
-                    makingCocoa_exit();
-                    Pouring_entDef();
-                    animInstance().notifyTransitionEnded("11");
-                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
-                }
+            animInstance().notifyTransitionStarted("11");
+            makingCocoa_exit();
+            Pouring_entDef();
+            animInstance().notifyTransitionEnded("11");
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
+        }
+        
+        //## statechart_method 
+        public void End_exit() {
+            EndExit();
+            animInstance().notifyStateExited("ROOT.Running.End");
         }
         
         //## statechart_method 
         public void makingCoffee_enter() {
             animInstance().notifyStateEntered("ROOT.Running.makingCoffee");
+            pushNullConfig();
             Running_subState = makingCoffee;
             rootState_active = makingCoffee;
             makingCoffeeEnter();
@@ -877,7 +974,19 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public int makingTeaTakeNull() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            animInstance().notifyTransitionStarted("10");
+            makingTea_exit();
+            Pouring_entDef();
+            animInstance().notifyTransitionEnded("10");
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
         public void makingTea_exit() {
+            popNullConfig();
             makingTeaExit();
             animInstance().notifyStateExited("ROOT.Running.makingTea");
         }
@@ -899,20 +1008,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void Choosing_entDef() {
             Choosing_enter();
-        }
-        
-        //## statechart_method 
-        public int makingTeaTakeRiJTimeout() {
-            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            if(event.getTimeoutId() == DrinksMachine_Timeout_makingTea_id)
-                {
-                    animInstance().notifyTransitionStarted("10");
-                    makingTea_exit();
-                    Pouring_entDef();
-                    animInstance().notifyTransitionEnded("10");
-                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
-                }
-            return res;
         }
         
         //## statechart_method 
@@ -951,11 +1046,28 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public void EndExit() {
+            itsRiJThread.unschedTimeout(DrinksMachine_Timeout_End_id, this);
+            //#[ state ROOT.Running.End.(Exit) 
+            for (int i = 0; i < 50; ++i) System.out.println();
+            System.out.println("Nacisnij 's' aby wybrac kolejny napoj.");
+            //#]
+        }
+        
+        //## statechart_method 
+        public void End_enter() {
+            animInstance().notifyStateEntered("ROOT.Running.End");
+            Running_subState = End;
+            rootState_active = End;
+            EndEnter();
+        }
+        
+        //## statechart_method 
         public int makingCoffee_takeEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            if(event.isTypeOf(RiJEvent.TIMEOUT_EVENT_ID))
+            if(event.isTypeOf(RiJEvent.NULL_EVENT_ID))
                 {
-                    res = makingCoffeeTakeRiJTimeout();
+                    res = makingCoffeeTakeNull();
                 }
             
             if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
@@ -1007,28 +1119,25 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         
         //## statechart_method 
         public void makingCocoaExit() {
-            itsRiJThread.unschedTimeout(DrinksMachine_Timeout_makingCocoa_id, this);
         }
         
         //## statechart_method 
         public void makingCocoa_enter() {
             animInstance().notifyStateEntered("ROOT.Running.makingCocoa");
+            pushNullConfig();
             Running_subState = makingCocoa;
             rootState_active = makingCocoa;
             makingCocoaEnter();
         }
         
         //## statechart_method 
-        public int makingCoffeeTakeRiJTimeout() {
+        public int makingCoffeeTakeNull() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            if(event.getTimeoutId() == DrinksMachine_Timeout_makingCoffee_id)
-                {
-                    animInstance().notifyTransitionStarted("6");
-                    makingCoffee_exit();
-                    Pouring_entDef();
-                    animInstance().notifyTransitionEnded("6");
-                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
-                }
+            animInstance().notifyTransitionStarted("6");
+            makingCoffee_exit();
+            Pouring_entDef();
+            animInstance().notifyTransitionEnded("6");
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
         }
         
