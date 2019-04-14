@@ -11,10 +11,10 @@
 			<_id type="a">GUID 717cedd8-0546-4471-85aa-e31f8d9d062b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">drinksmachine</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:36:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::20:39:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:56:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:56:49</_modifiedTime>
 			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">4.10.2019::20:36:30</weakCGTime>
+			<weakCGTime type="a">4.14.2019::16:56:49</weakCGTime>
 			<strongCGTime type="a">4.10.2019::19:31:11</strongCGTime>
 			<_defaultComposite type="s">GUID f39a5172-e172-4e69-a03e-341f27bce2f7</_defaultComposite>
 			<_eventsBaseID type="a">6616</_eventsBaseID>
@@ -1650,8 +1650,8 @@
 			</_properties>
 			<_name type="a">DrinksMachine</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:35:55</_modifiedTime>
-			<_lastModifiedTime type="a">4.10.2019::19:35:55</_lastModifiedTime>
+			<_modifiedTime type="a">4.14.2019::16:43:23</_modifiedTime>
+			<_lastModifiedTime type="a">4.14.2019::16:43:23</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4982,16 +4982,16 @@
 			<_id type="a">GUID fcb50d1a-47fd-4ded-86b9-e5615896253f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DrinksMachine</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.14.2019::16:54:1</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID a1b60f25-4482-47d1-928c-b5dd316994d4</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+			<_modifiedTime type="a">4.14.2019::16:54:1</_modifiedTime>
 			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">4.10.2019::20:40:11</weakCGTime>
+			<weakCGTime type="a">4.14.2019::16:54:1</weakCGTime>
 			<strongCGTime type="a">4.10.2019::19:31:26</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5244,10 +5244,10 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID a5f293a5-bc3a-45d5-95ee-4c14480b7d0f</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_4</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:54:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:54:1</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">4.10.2019::20:40:11</weakCGTime>
+			<weakCGTime type="a">4.14.2019::16:54:1</weakCGTime>
 			<strongCGTime type="a">3.15.2011::10:53:48</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5255,7 +5255,7 @@ stopTime = 4000;</_bodyData>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">9</_defNumber>
-			<_version type="a">4.10.2019::22:40:11</_version>
+			<_version type="a">4.14.2019::18:54:1</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 63d03270-6096-43d7-be88-788ff1c0b71a</_diagram>
 			<AggregatesList type="e">
@@ -5662,8 +5662,8 @@ stopTime = 4000;</_bodyData>
 			<_id type="a">GUID 6e3da782-e9d5-4183-8aa5-39cccba9236f</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_18</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::20:34:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:52:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:52:17</_modifiedTime>
 			<_itsTarget type="s">GUID 243efee4-cfc6-47fb-b375-4078132cb84d</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</_itsSource>
@@ -5673,8 +5673,8 @@ stopTime = 4000;</_bodyData>
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 89f6df5f-fe78-427e-ad65-4fc54f5d2956</_id>
-			<_modifiedTimeWeak type="a">4.10.2019::20:34:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::20:34:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:52:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:52:17</_modifiedTime>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -5683,10 +5683,10 @@ stopTime = 4000;</_bodyData>
 		</ILabel>
 		<ITimeout type="e">
 			<_id type="a">GUID 973efa49-8d0e-4d4b-883e-7d406af7c941</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<_body type="a">tm(pouringTime)</_body>
-			<_time type="a">pouringTime</_time>
+			<_modifiedTimeWeak type="a">4.14.2019::16:52:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:52:17</_modifiedTime>
+			<_body type="a">tm(stopTime)</_body>
+			<_time type="a">stopTime</_time>
 		</ITimeout>
 		<IConnector type="e">
 			<_id type="a">GUID 243efee4-cfc6-47fb-b375-4078132cb84d</_id>
@@ -5792,8 +5792,8 @@ char[] animationChars = new char[]{'|', '/', '-', '\\'};%0D
 		<IState type="e">
 			<_id type="a">GUID f0631179-d47e-4635-a410-16358fb56390</_id>
 			<_name type="a">Stop</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:37:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::17:30:28</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:54:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:54:1</_modifiedTime>
 			<_parent type="s">GUID 44907229-420f-48a3-b040-5ec4883a579b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
@@ -5804,6 +5804,14 @@ char[] animationChars = new char[]{'|', '/', '-', '\\'};%0D
 				<_body type="a">System.out.println(&quot;Anulowales zamowienie! Maszyna za chwile sie wylaczy.&quot;);</_body>
 			</IAction>
 			</_entryAction>
+			<_exitAction type="p"><IAction type="e">
+				<_id type="a">GUID f3071e9a-fe33-429b-b0ff-7853e55e5a8f</_id>
+				<_modifiedTimeWeak type="a">4.14.2019::16:54:1</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.14.2019::16:54:1</_modifiedTime>
+				<_body type="a">System.out.println(new String(new char[50]).replace(&quot;\0&quot;, &quot;\r\n&quot;));%0D
+System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj. Nacisnij 'x' aby wylaczyc maszyne.&quot;);</_body>
+			</IAction>
+			</_exitAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID dc46f903-adec-4f0c-9a02-f60426190f59</_id>
@@ -5866,24 +5874,24 @@ char[] animationChars = new char[]{'|', '/', '-', '\\'};%0D
 		<IState type="e">
 			<_id type="a">GUID 97210a65-e6fa-4efd-8b1f-4b0af6c248a0</_id>
 			<_name type="a">End</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:53:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:53:54</_modifiedTime>
 			<_parent type="s">GUID a899bec8-29b4-4161-98c5-e6b162a747b2</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID e17d493d-4393-48f7-a725-d7eaa9ff30eb</_id>
 				<_myState type="a">4096</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_body type="a">System.out.println(&quot;Smacznego!&quot;);</_body>
 			</IAction>
 			</_entryAction>
 			<_exitAction type="p"><IAction type="e">
 				<_id type="a">GUID fa68d569-a027-47fa-a4b2-b4c8556821cb</_id>
-				<_modifiedTimeWeak type="a">4.10.2019::20:40:11</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
+				<_modifiedTimeWeak type="a">4.14.2019::16:53:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.14.2019::16:53:54</_modifiedTime>
 				<_body type="a">System.out.println(new String(new char[50]).replace(&quot;\0&quot;, &quot;\r\n&quot;));%0D
-System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
+System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj. Nacisnij 'x' aby wylaczyc maszyne.&quot;);</_body>
 			</IAction>
 			</_exitAction>
 		</IState>
@@ -6202,9 +6210,9 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::20:39:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::20:40:11</_modifiedTime>
-			<_lastModifiedTime type="a">4.10.2019::20:40:11</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:52:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:54:1</_modifiedTime>
+			<_lastModifiedTime type="a">4.14.2019::16:54:1</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -7077,7 +7085,8 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Arial 10 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Arial 10 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIConnector type="e">
@@ -8680,7 +8689,7 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">tm(pouringTime)</m_str>
+					<m_str type="a">tm(stopTime)</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10368,10 +10377,10 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">KeyReader</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:37:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:37:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:57:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:57:2</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">4.10.2019::19:37:2</weakCGTime>
+			<weakCGTime type="a">4.14.2019::16:57:2</weakCGTime>
 			<strongCGTime type="a">3.15.2011::10:51:2</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -10389,10 +10398,10 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			<_id type="a">GUID 2b598c92-a466-42a2-b71e-2c93154edbfd</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">activity_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:37:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:37:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:57:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:57:2</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">4.10.2019::19:37:2</weakCGTime>
+			<weakCGTime type="a">4.14.2019::16:57:2</weakCGTime>
 			<strongCGTime type="a">3.15.2011::10:42:24</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -10400,7 +10409,7 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">2</_defNumber>
-			<_version type="a">4.10.2019::21:37:6</_version>
+			<_version type="a">4.14.2019::18:57:2</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 680ff72f-f801-47eb-9145-db7668a8e826</_diagram>
 			<AggregatesList type="e">
@@ -10514,17 +10523,18 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			<_id type="a">GUID b39e62e6-3897-4a6f-8dc8-7d0f9c86e1b6</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">action_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:37:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:37:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:55:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:55:35</_modifiedTime>
 			<_parent type="s">GUID 66ff70ba-1359-492e-ab8e-3483161d7fcd</_parent>
 			<_stateType type="a">Action</_stateType>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID d57ad74b-1a66-47a2-ae53-8c07f0bc6449</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">4.10.2019::19:37:2</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.10.2019::19:37:2</_modifiedTime>
-				<_body type="a">System.out.println(&quot;Nacisnij 's' aby rozpoczac: &quot;);</_body>
+				<_modifiedTimeWeak type="a">4.14.2019::16:55:35</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.14.2019::16:55:35</_modifiedTime>
+				<_body type="a">System.out.println(&quot;Dominik Ganczarski, projekt Automat Sprzedajacy Napoje (Drinks Machine)&quot;);%0D
+System.out.println(&quot;Nacisnij 's' aby rozpoczac. Nacisnij 'x' aby wylaczyc maszyne. &quot;);</_body>
 			</IAction>
 			</_entryAction>
 		</IState>
@@ -10532,16 +10542,16 @@ System.out.println(&quot;Nacisnij 's' aby wybrac kolejny napoj.&quot;);</_body>
 			<_id type="a">GUID ccb3eee6-6359-41ea-aedb-86dbd6b035e9</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">action_1</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:57:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:57:2</_modifiedTime>
 			<_parent type="s">GUID 66ff70ba-1359-492e-ab8e-3483161d7fcd</_parent>
 			<_stateType type="a">Action</_stateType>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID b26cb739-c6f7-4e38-8a96-81825f7b5252</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+				<_modifiedTimeWeak type="a">4.14.2019::16:57:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.14.2019::16:57:2</_modifiedTime>
 				<_body type="a">char cmd = 0;%0D
 try%0D
 {%0D
@@ -10707,9 +10717,9 @@ itsDisplay.gen(new evKeyPress(cmd));</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">activitydiagram_0</_name>
-			<_modifiedTimeWeak type="a">4.10.2019::19:37:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2019::19:37:6</_modifiedTime>
-			<_lastModifiedTime type="a">4.10.2019::19:37:6</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">4.14.2019::16:56:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.14.2019::16:57:2</_modifiedTime>
+			<_lastModifiedTime type="a">4.14.2019::16:57:2</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

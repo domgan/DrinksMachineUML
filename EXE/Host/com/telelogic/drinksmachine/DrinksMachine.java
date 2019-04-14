@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: DrinksMachine
-//!	Generated Date	: Wed, 10, Apr 2019 
+//!	Generated Date	: Sun, 14, Apr 2019 
 	File Path	: EXE/Host/com/telelogic/drinksmachine/DrinksMachine.java
 *********************************************************************/
 
@@ -342,6 +342,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public void rootState_add(AnimStates animStates) {
             animStates.add("ROOT");
             switch (rootState_subState) {
+                case Running:
+                {
+                    Running_add(animStates);
+                }
+                break;
                 case Off:
                 {
                     Off_add(animStates);
@@ -350,11 +355,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                 case Stop:
                 {
                     Stop_add(animStates);
-                }
-                break;
-                case Running:
-                {
-                    Running_add(animStates);
                 }
                 break;
                 default:
@@ -374,6 +374,36 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public int rootState_dispatchEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             switch (rootState_active) {
+                case Choosing:
+                {
+                    res = Choosing_takeEvent(id);
+                }
+                break;
+                case makingCoffee:
+                {
+                    res = makingCoffee_takeEvent(id);
+                }
+                break;
+                case Pouring:
+                {
+                    res = Pouring_takeEvent(id);
+                }
+                break;
+                case makingTea:
+                {
+                    res = makingTea_takeEvent(id);
+                }
+                break;
+                case makingCocoa:
+                {
+                    res = makingCocoa_takeEvent(id);
+                }
+                break;
+                case End:
+                {
+                    res = End_takeEvent(id);
+                }
+                break;
                 case Off:
                 {
                     res = Off_takeEvent(id);
@@ -382,36 +412,6 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                 case Stop:
                 {
                     res = Stop_takeEvent(id);
-                }
-                break;
-                case End:
-                {
-                    res = End_takeEvent(id);
-                }
-                break;
-                case makingCocoa:
-                {
-                    res = makingCocoa_takeEvent(id);
-                }
-                break;
-                case makingTea:
-                {
-                    res = makingTea_takeEvent(id);
-                }
-                break;
-                case Pouring:
-                {
-                    res = Pouring_takeEvent(id);
-                }
-                break;
-                case makingCoffee:
-                {
-                    res = makingCoffee_takeEvent(id);
-                }
-                break;
-                case Choosing:
-                {
-                    res = Choosing_takeEvent(id);
                 }
                 break;
                 default:
@@ -429,24 +429,9 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public void Running_add(AnimStates animStates) {
             animStates.add("ROOT.Running");
             switch (Running_subState) {
-                case End:
+                case Choosing:
                 {
-                    End_add(animStates);
-                }
-                break;
-                case makingCocoa:
-                {
-                    makingCocoa_add(animStates);
-                }
-                break;
-                case makingTea:
-                {
-                    makingTea_add(animStates);
-                }
-                break;
-                case Pouring:
-                {
-                    Pouring_add(animStates);
+                    Choosing_add(animStates);
                 }
                 break;
                 case makingCoffee:
@@ -454,9 +439,24 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                     makingCoffee_add(animStates);
                 }
                 break;
-                case Choosing:
+                case Pouring:
                 {
-                    Choosing_add(animStates);
+                    Pouring_add(animStates);
+                }
+                break;
+                case makingTea:
+                {
+                    makingTea_add(animStates);
+                }
+                break;
+                case makingCocoa:
+                {
+                    makingCocoa_add(animStates);
+                }
+                break;
+                case End:
+                {
+                    End_add(animStates);
                 }
                 break;
                 default:
@@ -606,6 +606,10 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void StopExit() {
             itsRiJThread.unschedTimeout(DrinksMachine_Timeout_Stop_id, this);
+            //#[ state ROOT.Stop.(Exit) 
+            System.out.println(new String(new char[50]).replace("\0", "\r\n"));
+            System.out.println("Nacisnij 's' aby wybrac kolejny napoj. Nacisnij 'x' aby wylaczyc maszyne.");
+            //#]
         }
         
         //## statechart_method 
@@ -759,24 +763,9 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void Running_exit() {
             switch (Running_subState) {
-                case End:
+                case Choosing:
                 {
-                    End_exit();
-                }
-                break;
-                case makingCocoa:
-                {
-                    makingCocoa_exit();
-                }
-                break;
-                case makingTea:
-                {
-                    makingTea_exit();
-                }
-                break;
-                case Pouring:
-                {
-                    Pouring_exit();
+                    Choosing_exit();
                 }
                 break;
                 case makingCoffee:
@@ -784,9 +773,24 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                     makingCoffee_exit();
                 }
                 break;
-                case Choosing:
+                case Pouring:
                 {
-                    Choosing_exit();
+                    Pouring_exit();
+                }
+                break;
+                case makingTea:
+                {
+                    makingTea_exit();
+                }
+                break;
+                case makingCocoa:
+                {
+                    makingCocoa_exit();
+                }
+                break;
+                case End:
+                {
+                    End_exit();
                 }
                 break;
                 default:
@@ -813,7 +817,7 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             //#[ state ROOT.Running.End.(Entry) 
             System.out.println("Smacznego!");
             //#]
-            itsRiJThread.schedTimeout(pouringTime, DrinksMachine_Timeout_End_id, this, "ROOT.Running.End");
+            itsRiJThread.schedTimeout(stopTime, DrinksMachine_Timeout_End_id, this, "ROOT.Running.End");
         }
         
         //## statechart_method 
@@ -1049,8 +1053,8 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public void EndExit() {
             itsRiJThread.unschedTimeout(DrinksMachine_Timeout_End_id, this);
             //#[ state ROOT.Running.End.(Exit) 
-            for (int i = 0; i < 50; ++i) System.out.println();
-            System.out.println("Nacisnij 's' aby wybrac kolejny napoj.");
+            System.out.println(new String(new char[50]).replace("\0", "\r\n"));
+            System.out.println("Nacisnij 's' aby wybrac kolejny napoj. Nacisnij 'x' aby wylaczyc maszyne.");
             //#]
         }
         

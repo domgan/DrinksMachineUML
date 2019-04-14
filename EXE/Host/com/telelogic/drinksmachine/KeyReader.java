@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: KeyReader
-//!	Generated Date	: Wed, 10, Apr 2019 
+//!	Generated Date	: Sun, 14, Apr 2019 
 	File Path	: EXE/Host/com/telelogic/drinksmachine/KeyReader.java
 *********************************************************************/
 
@@ -370,7 +370,8 @@ public class KeyReader implements RiJActive, RiJStateConcept, Animated {
         //## statechart_method 
         public void action_0Enter() {
             //#[ state ROOT.action_0.(Entry) 
-            System.out.println("Nacisnij 's' aby rozpoczac: ");
+            System.out.println("Dominik Ganczarski, projekt Automat Sprzedajacy Napoje (Drinks Machine)");
+            System.out.println("Nacisnij 's' aby rozpoczac. Nacisnij 'x' aby wylaczyc maszyne. ");
             //#]
         }
         
