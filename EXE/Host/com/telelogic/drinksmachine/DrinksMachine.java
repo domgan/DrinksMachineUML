@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: DrinksMachine
-//!	Generated Date	: Sun, 14, Apr 2019 
+//!	Generated Date	: Sat, 20, Apr 2019 
 	File Path	: EXE/Host/com/telelogic/drinksmachine/DrinksMachine.java
 *********************************************************************/
 
@@ -64,7 +64,8 @@ public class DrinksMachine implements RiJStateConcept, Animated {
     public static final int makingCocoa=6;
     public static final int End=7;
     public static final int Choosing=8;
-    public static final int Off=9;
+    public static final int addSugar=9;
+    public static final int Off=10;
     //#]
     protected int rootState_subState;		//## ignore 
     
@@ -404,6 +405,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                     res = End_takeEvent(id);
                 }
                 break;
+                case addSugar:
+                {
+                    res = addSugar_takeEvent(id);
+                }
+                break;
                 case Off:
                 {
                     res = Off_takeEvent(id);
@@ -459,6 +465,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                     End_add(animStates);
                 }
                 break;
+                case addSugar:
+                {
+                    addSugar_add(animStates);
+                }
+                break;
                 default:
                     break;
             }
@@ -492,6 +503,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         //## statechart_method 
         public void Choosing_add(AnimStates animStates) {
             animStates.add("ROOT.Running.Choosing");
+        }
+        
+        //## statechart_method 
+        public void addSugar_add(AnimStates animStates) {
+            animStates.add("ROOT.Running.addSugar");
         }
         
         //## statechart_method 
@@ -551,6 +567,18 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public void addSugarEnter() {
+            //#[ state ROOT.Running.addSugar.(Entry) 
+            System.out.println("Czy dodac cukru? T/N");
+            //#]
+        }
+        
+        //## statechart_method 
+        public void addSugar_entDef() {
+            addSugar_enter();
+        }
+        
+        //## statechart_method 
         public int ChoosingTakeevCoffee() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             animInstance().notifyTransitionStarted("4");
@@ -588,6 +616,10 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             animInstance().notifyTransitionEnded("2");
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
+        }
+        
+        //## statechart_method 
+        public void addSugarExit() {
         }
         
         //## statechart_method 
@@ -673,6 +705,12 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public void addSugar_exit() {
+            addSugarExit();
+            animInstance().notifyStateExited("ROOT.Running.addSugar");
+        }
+        
+        //## statechart_method 
         public int Choosing_takeEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             if(event.isTypeOf(evCoffee.evCoffee_drinksmachine_telelogic_com_id))
@@ -729,6 +767,17 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         }
         
         //## statechart_method 
+        public int addSugarTakeevSugar() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            animInstance().notifyTransitionStarted("14");
+            addSugar_exit();
+            Pouring_entDef();
+            animInstance().notifyTransitionEnded("14");
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
         public void Choosing_exit() {
             ChoosingExit();
             animInstance().notifyStateExited("ROOT.Running.Choosing");
@@ -745,6 +794,14 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             Running_subState = Pouring;
             rootState_active = Pouring;
             PouringEnter();
+        }
+        
+        //## statechart_method 
+        public void addSugar_enter() {
+            animInstance().notifyStateEntered("ROOT.Running.addSugar");
+            Running_subState = addSugar;
+            rootState_active = addSugar;
+            addSugarEnter();
         }
         
         //## statechart_method 
@@ -791,6 +848,11 @@ public class DrinksMachine implements RiJStateConcept, Animated {
                 case End:
                 {
                     End_exit();
+                }
+                break;
+                case addSugar:
+                {
+                    addSugar_exit();
                 }
                 break;
                 default:
@@ -949,7 +1011,7 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             animInstance().notifyTransitionStarted("11");
             makingCocoa_exit();
-            Pouring_entDef();
+            addSugar_entDef();
             animInstance().notifyTransitionEnded("11");
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -982,7 +1044,7 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             animInstance().notifyTransitionStarted("10");
             makingTea_exit();
-            Pouring_entDef();
+            addSugar_entDef();
             animInstance().notifyTransitionEnded("10");
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -1007,6 +1069,21 @@ public class DrinksMachine implements RiJStateConcept, Animated {
         public void Off_exit() {
             OffExit();
             animInstance().notifyStateExited("ROOT.Off");
+        }
+        
+        //## statechart_method 
+        public int addSugar_takeEvent(short id) {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            if(event.isTypeOf(evSugar.evSugar_drinksmachine_telelogic_com_id))
+                {
+                    res = addSugarTakeevSugar();
+                }
+            
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = Running_takeEvent(id);
+                }
+            return res;
         }
         
         //## statechart_method 
@@ -1139,7 +1216,7 @@ public class DrinksMachine implements RiJStateConcept, Animated {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             animInstance().notifyTransitionStarted("6");
             makingCoffee_exit();
-            Pouring_entDef();
+            addSugar_entDef();
             animInstance().notifyTransitionEnded("6");
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -1224,8 +1301,8 @@ public class DrinksMachine implements RiJStateConcept, Animated {
     public void addRelations(AnimRelations msg) {
         
         msg.add("heater", true, true, heater);
-        msg.add("itsDisplay", false, true, itsDisplay);
         msg.add("nozzle", true, true, nozzle);
+        msg.add("itsDisplay", false, true, itsDisplay);
     }
     /** An inner class added as instrumentation for animation */
     public class Animate extends AnimInstance { 

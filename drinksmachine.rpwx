@@ -46,7 +46,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">909 486 </_DownRight>
-						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -78,7 +78,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">2414 912 </_DownRight>
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -111,7 +111,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">909 486 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -143,7 +143,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">943 465 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -151,8 +151,8 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
@@ -174,10 +174,10 @@
 								<_hid type="a">GUID 63d03270-6096-43d7-be88-788ff1c0b71a</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">18 0 </_UpLeft>
-						<_DownRight type="a">1152 520 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<_UpLeft type="a">15 0 </_UpLeft>
+						<_DownRight type="a">1347 900 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -210,7 +210,7 @@
 						<_UpLeft type="a">112 17 </_UpLeft>
 						<_DownRight type="a">1080 432 </_DownRight>
 						<_instanceName type="a">Dishwasher</_instanceName>
-						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -244,7 +244,7 @@
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">2172 821 </_DownRight>
 						<_instanceName type="a">DrinksMachine</_instanceName>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -275,8 +275,8 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">936 480 </_DownRight>
-						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
+						<_DownRight type="a">1463 750 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -284,8 +284,8 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">3</m_showCmd>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
@@ -308,14 +308,14 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">2031 1008 </_DownRight>
+						<_DownRight type="a">909 486 </_DownRight>
 						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\Users\student\Desktop\DrinksMachine\drinksmachine</_fullName>
+			<_fullName type="a">C:\Users\student\Desktop\DrinksMachineUML\drinksmachine</_fullName>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>

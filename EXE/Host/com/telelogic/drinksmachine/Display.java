@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: Display
-//!	Generated Date	: Wed, 10, Apr 2019 
+//!	Generated Date	: Sat, 20, Apr 2019 
 	File Path	: EXE/Host/com/telelogic/drinksmachine/Display.java
 *********************************************************************/
 
@@ -435,6 +435,40 @@ public class Display implements RiJStateConcept, Animated {
                                                             animInstance().notifyTransitionEnded("7");
                                                             animInstance().notifyTransitionEnded("1");
                                                             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                                                        }
+                                                    else
+                                                        {
+                                                            //## transition 8 
+                                                            if(params.key == 'n')
+                                                                {
+                                                                    animInstance().notifyTransitionStarted("1");
+                                                                    animInstance().notifyTransitionStarted("8");
+                                                                    WaitForKeys_exit();
+                                                                    //#[ transition 8 
+                                                                    itsDrinksMachine.gen(new evSugar());
+                                                                    //#]
+                                                                    WaitForKeys_entDef();
+                                                                    animInstance().notifyTransitionEnded("8");
+                                                                    animInstance().notifyTransitionEnded("1");
+                                                                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                                                                }
+                                                            else
+                                                                {
+                                                                    //## transition 9 
+                                                                    if(params.key == 't')
+                                                                        {
+                                                                            animInstance().notifyTransitionStarted("1");
+                                                                            animInstance().notifyTransitionStarted("9");
+                                                                            WaitForKeys_exit();
+                                                                            //#[ transition 9 
+                                                                            itsDrinksMachine.gen(new evSugar());
+                                                                            //#]
+                                                                            WaitForKeys_entDef();
+                                                                            animInstance().notifyTransitionEnded("9");
+                                                                            animInstance().notifyTransitionEnded("1");
+                                                                            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                                                                        }
+                                                                }
                                                         }
                                                 }
                                         }

@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: Host
-//!	Generated Date	: Wed, 10, Apr 2019 
+//!	Generated Date	: Sat, 20, Apr 2019 
 	File Path	: EXE/Host/MainEXE.java
 *********************************************************************/
 
@@ -37,6 +37,7 @@ public class MainEXE {
             Class.forName("com.telelogic.drinksmachine.evKeyPress");
             Class.forName("com.telelogic.drinksmachine.evStart");
             Class.forName("com.telelogic.drinksmachine.evStop");
+            Class.forName("com.telelogic.drinksmachine.evSugar");
             Class.forName("com.telelogic.drinksmachine.evTea");
     
         // Registering Static Classes 
