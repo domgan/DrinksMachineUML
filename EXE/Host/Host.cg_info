@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.15.0 * 9835550
 	"EXE/Host/com/telelogic/dishwasher/User.java" 4.10.2019::19:27:17
 	"EXE/Host/com/telelogic/dishwasher/dishwasher_pkgClass.java" 4.10.2019::19:27:17
 	"EXE/Host/com/telelogic/drinksmachine/Display.java" 4.22.2019::13:46:31
-	"EXE/Host/com/telelogic/drinksmachine/DrinksMachine.java" 4.20.2019::14:46:47
+	"EXE/Host/com/telelogic/drinksmachine/DrinksMachine.java" 4.22.2019::16:22:57
 	"EXE/Host/com/telelogic/drinksmachine/DrinksMachineBuilder.java" 4.14.2019::17:51:12
 	"EXE/Host/com/telelogic/drinksmachine/Heater.java" 4.14.2019::17:51:12
 	"EXE/Host/com/telelogic/drinksmachine/Jet.java" 4.10.2019::19:33:57
@@ -48,7 +48,7 @@ I-Logix-RPY-Archive version 8.15.0 * 9835550
 	- _name = "EXE\\Host";
 	- _id = GUID fe11da18-7e6a-4d2d-b39e-0433bbd4c55b;
 }
-- genTime = 4.22.2019::13:46:32;
+- genTime = 4.22.2019::16:22:58;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
 	- _filename = "C:\\Users\\student\\Desktop\\DrinksMachineUML\\drinksmachine_rpy\\drinksmachine.sbsx";
@@ -56,7 +56,7 @@ I-Logix-RPY-Archive version 8.15.0 * 9835550
 	- _name = "drinksmachine";
 	- _id = GUID 717cedd8-0546-4471-85aa-e31f8d9d062b;
 }
-- genTime = 4.22.2019::13:45:4;
+- genTime = 4.22.2019::16:22:58;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "C:\\Users\\student\\Desktop\\DrinksMachineUML\\drinksmachine_rpy\\drinksmachine.sbsx";
@@ -64,7 +64,7 @@ I-Logix-RPY-Archive version 8.15.0 * 9835550
 	- _name = "DrinksMachine";
 	- _id = GUID fcb50d1a-47fd-4ded-86b9-e5615896253f;
 }
-- genTime = 4.22.2019::13:41:27;
+- genTime = 4.22.2019::16:22:58;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = "C:\\Users\\student\\Desktop\\DrinksMachineUML\\drinksmachine_rpy\\drinksmachine.sbsx";

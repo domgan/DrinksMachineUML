@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: DrinksMachine
-//!	Generated Date	: Sat, 20, Apr 2019 
+//!	Generated Date	: Mon, 22, Apr 2019 
 	File Path	: EXE/Host/com/telelogic/drinksmachine/DrinksMachine.java
 *********************************************************************/
 
@@ -171,7 +171,12 @@ public class DrinksMachine implements RiJStateConcept, Animated {
     
     //## auto_generated 
     public void setCocoaTime(int p_cocoaTime) {
+        try {
         cocoaTime = p_cocoaTime;
+        }
+        finally {
+            animInstance().notifyUpdatedAttr();
+        }
     }
     
     //## auto_generated 
