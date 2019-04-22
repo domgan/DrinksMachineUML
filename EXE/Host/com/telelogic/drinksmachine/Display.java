@@ -4,7 +4,7 @@
 	Component	: EXE
 	Configuration 	: Host
 	Model Element	: Display
-//!	Generated Date	: Sat, 20, Apr 2019 
+//!	Generated Date	: Mon, 22, Apr 2019 
 	File Path	: EXE/Host/com/telelogic/drinksmachine/Display.java
 *********************************************************************/
 
@@ -467,6 +467,24 @@ public class Display implements RiJStateConcept, Animated {
                                                                             animInstance().notifyTransitionEnded("9");
                                                                             animInstance().notifyTransitionEnded("1");
                                                                             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                                                                        }
+                                                                    else
+                                                                        {
+                                                                            //## transition 10 
+                                                                            if(!((params.key == 't')|| (params.key == 'n')|| (params.key == 's')||(params.key == '1')||(params.key == '2')||(params.key == '3')||(params.key == 'a')||(params.key == 'x')))
+                                                                                {
+                                                                                    animInstance().notifyTransitionStarted("1");
+                                                                                    animInstance().notifyTransitionStarted("10");
+                                                                                    WaitForKeys_exit();
+                                                                                    //#[ transition 10 
+                                                                                    System.out.println("\007");
+                                                                                    System.out.println("Przycisk nieobslugiwany!");
+                                                                                    //#]
+                                                                                    WaitForKeys_entDef();
+                                                                                    animInstance().notifyTransitionEnded("10");
+                                                                                    animInstance().notifyTransitionEnded("1");
+                                                                                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                                                                                }
                                                                         }
                                                                 }
                                                         }
